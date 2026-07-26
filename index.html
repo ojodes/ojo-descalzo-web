@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ojo Descalzo</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body id="top">
+
+<header>
+
+    <nav>
+
+        <a href="#top" class="brand">
+
+            <div class="brand-icon">
+                ○
+            </div>
+
+            <div class="brand-text">
+
+                <h1>OJO DESCALZO</h1>
+
+                <p>
+                    wokeadas
+                </p>
+
+            </div>
+
+        </a>
+
+        <ul>
+
+            <li><a href="#hosts">Anfitrionas</a></li>
+
+            <li><a href="#episodes">Episodios</a></li>
+
+            <li><a href="#guests">Invitados</a></li>
+
+            <li><a href="#oversharea">Oversharea</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<section class="hero reveal">
+
+<div class="overlay"></div>
+
+<img src="assets/hero.jpg" alt="vinito blanco">
+
+<div class="hero-content">
+
+<p class="hero-tag">
+PODCAST DESDE VALENCIA
+</p>
+
+<h2>
+
+OJO<br>
+DESCALZO
+
+</h2>
+
+<p class="hero-text">
+
+Las mejores conversaciones empiezan descalzas y con un vinito (según nosotras)
+
+</p>
+
+<a href="#episodes" class="button">
+
+VER ÚLTIMO EPISODIO →
+
+</a>
+
+</div>
+
+</section>
+
+<section id="hosts" class="hosts reveal">
+
+    <div class="section-header">
+
+        <p>ANFITRIONAS</p>
+
+        <h2>
+            Las gatitas que lo llevan 💋
+        </h2>
+
+    </div>
+
+    <div class="hosts-grid">
+
+        <!-- KIM -->
+
+        <article class="host-card">
+
+            <img src="assets/kim.jpg" alt="Kim">
+
+            <div class="host-info">
+
+                <h3>Kim</h3>
+
+                <p>
+                    Las feas con las feas las guapas pa mi.
+                </p>
+
+                <span>@kimbr.21</span>
+
+                <a href="https://www.instagram.com/kimbr.21/" target="_blank" rel="noopener noreferrer">
+                    Instagram ↗
+                </a>
+
+            </div>
+
+        </article>
+
+        <!-- MARIAM -->
+
+        <article class="host-card">
+
+            <img src="assets/mariam.jpg" alt="Mariam">
+
+            <div class="host-info">
+
+                <h3>Mariam</h3>
+
+                <p>
+                    Española? No lo creo.
+                </p>
+
+                <span>@mariam_rtz</span>
+
+                <a href="https://www.instagram.com/mariam_rtz/" target="_blank" rel="noopener noreferrer">
+                    Instagram ↗
+                </a>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+<section id="episodes" class="episodes reveal">
+
+    <div class="section-header">
+
+        <p>ÚLTIMO EPISODIO</p>
+
+        <h2>
+            Ya disponible.
+        </h2>
+
+    </div>
+
+    <article class="featured-episode">
+
+        <img src="assets/episodio1.jpg" alt="Episodio 001">
+
+        <div class="episode-meta">
+
+            <span>EPISODIO 001</span>
+
+            <h3>
+                Kim & Mariam
+            </h3>
+
+            <a href="https://www.youtube.com/watch?v=ZaNvoO7TTqU" target="_blank" class="button" rel="noopener noreferrer">
+                VER EPISODIO →
+            </a>
+
+        </div>
+
+    </article>
+
+</section>
+
+<section id="guests" class="guests reveal">
+
+    <div class="section-header">
+
+        <p>INVITADOS</p>
+
+        <h2>
+            Gente que lo parte duro de cojones.
+        </h2>
+
+    </div>
+
+    <div class="guest-wall">
+
+        <article class="guest">
+            <img src="assets/invitado1.jpg" alt="Shakira">
+            <h3>Shakira</h3>
+            <span>Director de cine</span>
+        </article>
+
+        <article class="guest">
+            <img src="assets/invitado2.jpg" alt="Carmen Lomana">
+            <h3>Carmen Lomana</h3>
+            <span>Fotógrafa</span>
+        </article>
+
+        <article class="guest">
+            <img src="assets/invitado3.jpg" alt="Paquita Salas">
+            <h3>Paquita Salas</h3>
+            <span>Artista</span>
+        </article>
+
+        <article class="guest">
+            <img src="assets/invitado4.jpg" alt="Jude Bellingham">
+            <h3>Jude Bellingham</h3>
+            <span>Músico</span>
+        </article>
+
+    </div>
+
+</section>
+
+<section id="oversharea" class="oversharea reveal">
+
+    <p class="section-label">OVERSHAREA</p>
+
+    <h2>
+        Cuéntanos algo de manera anónima.
+    </h2>
+
+    <p class="oversharea-text">
+        Yo m/f/x, 23... (un secreto, una historia, una preocupación... Igual te leemos en el podcsat)
+    </p>
+
+    <button
+        type="button"
+        id="openModal"
+        class="button">
+
+        ABRIR EL BUZÓN →
+
+    </button>
+
+</section>
+
+<!-- MODAL -->
+
+<div class="modal" id="modal">
+
+    <div class="modal-content">
+
+        <button class="close-modal" id="closeModal">
+            ×
+        </button>
+
+        <h2>
+            Oversharea
+        </h2>
+
+        <p>
+            Este buzón es completamente anónimo.
+        </p>
+
+        <form
+            id="overshareForm"
+            action="https://formspree.io/f/xqerwpvv"
+            method="POST">
+
+            <textarea
+                name="message"
+                id="message"
+                rows="8"
+                placeholder="Atrevete te te salte del closet"
+                required>
+            </textarea>
+
+            <button type="submit" class="button">
+
+                ENVIAR →
+
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<footer>
+
+    <div class="footer-links">
+
+        <a href="https://www.instagram.com/ojodescalzo/"
+           target="_blank"
+           rel="noopener noreferrer">
+            Instagram
+        </a>
+
+        <a href="https://www.tiktok.com/@ojodescalzo"
+           target="_blank"
+           rel="noopener noreferrer">
+            TikTok
+        </a>
+
+        <a href="https://open.spotify.com/"
+           target="_blank"
+           rel="noopener noreferrer">
+            Spotify
+        </a>
+
+        <a href="https://www.youtube.com/"
+           target="_blank"
+           rel="noopener noreferrer">
+            YouTube
+        </a>
+
+    </div>
+
+    <p>© 2026 Ojo Descalzo</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
