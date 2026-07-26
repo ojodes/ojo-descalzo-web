@@ -1116,3 +1116,78 @@ footer p{
     font-size:.85rem;
 
 }
+
+html,
+body{
+    overflow-x:hidden;
+    width:100%;
+}
+
+/* =========================================
+   RESPONSIVE - MÓVIL
+========================================= */
+
+@media (max-width: 768px){
+
+    header{
+        padding:20px;
+    }
+
+    nav{
+        flex-direction:column;
+        gap:24px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:18px;
+    }
+
+    .hero{
+        min-height:100vh;
+    }
+
+    .hero-content{
+        width:100%;
+        padding:0 20px;
+    }
+
+    .hero-content h2{
+        font-size:4rem;
+        line-height:.9;
+    }
+
+    .hero-text{
+        font-size:1.5rem;
+        max-width:100%;
+    }
+
+    img{
+        max-width:100%;
+        height:auto;
+    }
+
+    .hosts-grid,
+    .guest-wall{
+        grid-template-columns:1fr;
+    }
+
+    .featured-episode{
+        grid-template-columns:1fr;
+    }
+
+    .modal-content{
+        padding:35px 25px;
+    }
+
+    footer{
+        padding:50px 20px;
+    }
+
+    .footer-links{
+        flex-direction:column;
+        gap:15px;
+    }
+
+}
